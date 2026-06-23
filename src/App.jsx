@@ -260,7 +260,7 @@ export default function App() {
               {cart.map((i) => (
                 <div key={i.id} className="flex gap-3 bg-brand-cream rounded-xl p-3">
                   <img src={i.image} alt={i.name} className="w-20 h-20 object-cover rounded-lg" />
-                  <div className="flex-1 min-w-0">
+                  <div className="flex-1 min-w-0">1
                     <div className="font-semibold text-sm line-clamp-2">{i.name}</div>
                     <div className="text-brand-pink font-bold mt-1">{formatBRL(i.price)}</div>
                     <div className="flex items-center gap-2 mt-2">
