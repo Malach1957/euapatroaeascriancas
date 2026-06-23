@@ -44,7 +44,7 @@ export default function App() {
     if (!cart.length) return;
     const lines = cart.map((i) => `• ${i.name} (x${i.qty}) — ${formatBRL(i.price * i.qty)}`);
     const msg = `Olá! Quero finalizar meu pedido na Eu a Patroa e as Crianças:%0A%0A${lines.join("%0A")}%0A%0A*Total:* ${formatBRL(cartTotal)}`;
-    window.open(`https://wa.me/553197248-0122?text=${msg}`, "_blank");
+    window.open(`https://wa.me/5531 97248-0122?text=${msg}`, "_blank");
   };
 
   const submitSearch = (e) => {
